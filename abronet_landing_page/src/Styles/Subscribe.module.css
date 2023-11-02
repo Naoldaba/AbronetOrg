@@ -1,17 +1,16 @@
-.greendiv{
-    
+.greendiv{  
     display: flex;
     flex-wrap: wrap;
     background-color: #01890d;
     justify-content: center;
-    height: 300px;
-    width: 90%;
+    width: 70%;
     margin: 70px auto;
     border-radius: 30px;
+    padding: 20px;
     & img{
         margin: 10px;
-        width: 30%;
-        height: auto;
+        width: 300px;
+        height: 200px;
     }
     & div{
         
@@ -21,13 +20,19 @@
             font-weight: 700;
             color:rgba(252, 252, 252, 1);
         }
+        & span{
+            color: rgba(252, 252, 252, 1);
+            position: relative;
+            bottom: 20px;
+            
+        }
         width: 50%;
         & .whitediv{
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: space-around;
-            width: 40%;
+            width: 300px;
             height: 50px;
             background-color: rgba(252, 252, 252, 1);
             & input{
@@ -47,5 +52,14 @@
                 
             }
         }
+    }
+}
+@media only screen and (max-width: 1003px){
+    .greendiv div{
+        width: 100%;
+        text-align: center;
+    }
+    .greendiv img{
+        display: none;
     }
 }
