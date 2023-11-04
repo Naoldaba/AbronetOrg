@@ -1,7 +1,6 @@
 import Styles from "../Styles/Hero.module.css"
 import Rectangle from "../resources/Rectangle.jpg"
-import Vector1 from "../resources/Vector1.png";
-import Vector from "../resources/Vector.png";
+import tick from "../resources/tick.png"
 const Hero = () => {
     return (
         <div className={Styles.Hero}>
@@ -13,14 +12,13 @@ const Hero = () => {
             <div className={Styles.rectangle}>
                 <img src={Rectangle} id={Styles.rec} />
                 <div className={Styles.Planning}>
-                    <img id={Styles.V1} src={Vector1} alt="vector image"/>
-                    <span>Planning Consultation</span>
-                    <button>Try</button>
+                    <img  src={tick} alt="vector image"/>
+                    <span>ታማኝ እና ቀልጣፋ</span>
+                    
                 </div>
                 <div className={Styles.Monthly}>
-                    <img id={Styles.v2} src={Vector} alt="vector image" />
-                    <span>Monthly Report</span>
-                    <button>Try</button>
+                    <img  src={tick} alt="vector image" />
+                    <span>ከዘመኑ ጋር ይዘምኑ</span>   
                 </div>
             </div>
             

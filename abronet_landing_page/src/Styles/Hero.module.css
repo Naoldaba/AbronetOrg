@@ -53,7 +53,7 @@
             border-radius: 8px;
             background-color:#FCFCFC;
             font-size: 18px;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
             & button{
                 width: 66px;
@@ -76,7 +76,7 @@
 }
 @media only screen and (max-width: 1280px){
     .Hero .rectangle .Planning{
-       bottom: 350px;
+       bottom: 300px;
        left: 0;
     }
     .Hero .rectangle .Monthly{

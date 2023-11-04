@@ -1,5 +1,5 @@
 import favicon from "../resources/favicon.jpg";
-//import Styles from "../Styles/nav.module.css";
+import Styles from "../Styles/nav.module.css";
 import Hamburger from "./Hamburger";
 import { useState } from "react";
 const Header = () => {
