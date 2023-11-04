@@ -15,7 +15,7 @@
     & .workflow{
         width: 40%;
         max-width: 578px;
-        min-width: 400;
+        min-width: 400px;
         & img{
             width: 100%;
             height: auto;

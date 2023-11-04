@@ -4,21 +4,21 @@
     justify-content: center;
     background-color: rgba(64, 64, 64, 1);
     padding: 30px;
+    gap: 10%;
+    
     & .sect1{
-        width: 40%;
-        & img{
-            width: 40%;
-        }
+        
         & h1{
-            font-size: 36px;
+            font-size: 40px;
             color:rgba(224, 224, 224, 1);
         }
-
+        & h2{
+            color: rgba(224, 224, 224, 1);
+        }
     }
     & .sect2{
-        width: 40%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 30%);
         column-gap: 10px;
         & div span{
             display: block;

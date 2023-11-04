@@ -9,7 +9,7 @@ const OurServices = () => {
     return (
         <div className={Styles.grid}>
             <div className={Styles.info}>
-                <h1>What is equp?</h1>
+                <h1>What is equb?</h1>
                 <p>አብሮነት ከተለያዩ የሙያ ዘርፍና የሕይወት ልምድ ያላቸው፤አብሮ በመሠራት የሚያምኑ እንዲሁም ለሰዎች የሥራ ዕድልን በመፍጠር ፍላጎት ባላቸው ግለሰቦች ስብስብ የተመሰረተ ነው፡፡</p>
             </div>
             <div className={Styles.div2}>

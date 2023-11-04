@@ -25,27 +25,35 @@
         }
     }
     & .div2{
+        width: 70%;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3,30%);
         column-gap:30px;
-        & div{
-            text-align: center;
-        }
     }
     & .div3{
-        max-width: 578px;
-        min-width: 400px;
-        & img {
+        
+        max-width: 480px;
+        min-width: 300px;
+        width: 80%;
+        aspect-ratio: 1/1;
+        & img{
+            
             width: 100%;
             height: auto;
-        }  
+            
+            
+        }
     }
     & .div4{
+        
+        & h1,p,div{
+            margin: 50px;
+        }
         & div{
+            
             display: grid;
             justify-items: center;
-            grid-template-columns: repeat(3,1fr);
-
+            grid-template-columns: repeat(3,30%);
         }
     }
 }
@@ -65,5 +73,10 @@
     }
     .grid h1{
         text-align: center;
+    }
+    .div2{
+        & div{
+            width: 100%;
+        }
     }
 }

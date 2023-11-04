@@ -28,9 +28,9 @@
         }
     }
     & .pic{
-        max-width: 578px;
-        min-width: 400px;
-        width: 50%;
+        max-width: 480px;
+        min-width: 300px;
+        width: 40%;
         & img{
             width: 100%;
             height: auto;

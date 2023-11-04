@@ -1,12 +1,12 @@
 import Styles from "../Styles/Footer.module.css";
-import footlogo from "../resources/footlogo.png";
+
 
 const Footer = () => {
     return (
         <div className={Styles.main}>
             <div className={Styles.sect1}>
-                <img src={footlogo} />
-                <h1>Grow your business with us</h1>
+                <h1>አብሮነት</h1>
+                <h2>Grow your business with us</h2>
             </div>
             <div className={Styles.sect2}>
                 <div>

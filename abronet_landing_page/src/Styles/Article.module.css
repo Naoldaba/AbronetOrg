@@ -15,8 +15,8 @@
         color: rgba(64, 64, 64, 1);
     }
     & .section1{
-        max-width: 578px;
-        min-width: 400px;
+        max-width: 480px;
+        min-width: 300px;
         width: 40%;
 
         & img{

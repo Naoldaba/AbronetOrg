@@ -7,7 +7,6 @@
     justify-content: center;
     align-items: center;
     & .title{
- 
         & h1{
             font-size: 48px;
             font-weight: 700;
@@ -36,8 +35,8 @@
     & .rectangle{ 
         position: relative;
         width: 40%;  
-        max-width: 578px; 
-        min-width: 400px;
+        max-width: 480px; 
+        min-width: 300px;
         & #rec{
             width: 100%;
             height: auto;
