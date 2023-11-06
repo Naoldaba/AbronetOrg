@@ -1,10 +1,11 @@
-import Hero from "../Components/Hero";
-import OurServices from "../Components/OurServices";
-import OurTestimonial from "../Components/OurTestimonial";
-import ContactUs from "../Components/ContactUs";
-import Subscribe from "../Components/Subscribe";
-import Article from "../Components/Article";
-import Workflow from "../Components/Workflow";
+import Hero from "../Sections/Hero";
+import OurServices from "../Sections/OurServices";
+import OurTestimonial from "../Sections/OurTestimonial";
+import ContactUs from "../Sections/ContactUs";
+import Subscribe from "../Sections/Subscribe";
+import Article from "../Sections/Article";
+import Workflow from "../Sections/Workflow";
+
 
 const Home = () => {
     return (

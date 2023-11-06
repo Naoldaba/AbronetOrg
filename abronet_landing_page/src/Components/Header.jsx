@@ -1,5 +1,5 @@
 import favicon from "../resources/favicon.jpg";
-import Styles from "../Styles/nav.module.css";
+
 import Hamburger from "./Hamburger";
 import { useState } from "react";
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <>
             <div className="header">
-                <div className={Styles.logo}>
+                <div className="logo">
                     <img src={favicon} alt="logo" width="124px" height="124px"/>
                 </div>
                 <div className="menu">
@@ -45,11 +45,14 @@ const Header = () => {
                     
                     & .menu{
                         display: flex;
+                        flex-wrap: wrap;
+                        
                     }
                     & .menu ul{
                         display: flex;
                         flex-wrap: wrap;
-                        gap: 10px;
+                        gap: 30px;
+                        
                         & li{
                             list-style-type: none;
                         }
