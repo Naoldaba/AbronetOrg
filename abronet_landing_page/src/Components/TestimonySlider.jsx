@@ -19,55 +19,24 @@ const TestimonySlider = ({slides}) => {
 
     return (
         <>
-            <div className='testimonies'>
-                <h1>Our Testimonials</h1>
+            <div className=''>
+                <h1 className="text-2xl md:text-5xl font-bold mb-10">Our Testimonials</h1>
                 {slides.map((slide,index)=>{
                     return (
                         <div
                             key={index}
                         >
-                            {index===current && (<h3 className="name">{slide.name}</h3>)}
-                            {index===current && (<p className="testimony">{slide.testimony}</p>)}
-                            {index===current && (<span className="">{slide.position}</span>)}
+                            {index===current && (<h3 className="text-xl font-bold">{slide.name}</h3>)}
+                            {index===current && (<p className="">{slide.testimony}</p>)}
+                            {index===current && (<span className="block text-gray-500 text-lg mt-5">{slide.position}</span>)}
                         </div>
                     )
                 })}
-                <div className="btns">
-                    <img src={back} className="left-arrow" onClick={prevSlide} />
-                    <img src={forward} className="right-arrow" onClick={nextSlide}/>
+                <div className="flex gap-5 mt-10 justify-end">
+                    <img src={back} className="slideicon" onClick={prevSlide} />
+                    <img src={forward} className="slideicon" onClick={nextSlide}/>
                 </div>
             </div>
-            <style jsx>{`
-                & .testimonies{
-                    position: relative;
-                    width: 50%;
-                    height: 100%;
-                    margin-bottom: 30px;
-                    & h1{
-                        font-size: 48px;
-                    }
-                    & div h3{
-                        font-size: 24px;
-                    }
-                    & div p,div span {
-                       font-size: 18px;
-                       font-weight: 400;
-                       color:rgba(196, 196, 196, 1)
-                    }
-                    & .btns{
-                        position: absolute;
-                        right: 40px;
-                        bottom: -4px;
-                        & img{
-                            margin: 0 10px;
-                            width: 1.9rem;
-                        }
-                    }
-                    & .btns:hover{
-                        cursor: pointer;
-                    }
-                }
-            `}</style>
         </>
         
     );

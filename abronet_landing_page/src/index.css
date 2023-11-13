@@ -1,0 +1,22 @@
+
+/* npm run start */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slideicon{
+  @apply w-9 hover:cursor-pointer;
+}
+.green_btn{
+  @apply text-lg bg-primary text-white px-3 md:w-32 h-14 rounded-md;
+}
+.objectives{
+  @apply text-xl font-bold my-5;
+}
+.tags{
+  @apply absolute flex justify-center items-center bg-white w-1/2 h-14 pl-1 rounded-md
+}
+.tick{
+  @apply w-4 h-3 md:w-9 md:h-7
+}

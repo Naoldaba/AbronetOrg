@@ -1,7 +1,7 @@
 export default function Hamburger({ isOpen }){
     return(
         <>
-            <div className="hamburger">
+            <div className="hamburger hover:cursor-pointer">
                 <div className="burger burger1" />
                 <div className="burger burger2" />
                 <div className="burger burger3" />
